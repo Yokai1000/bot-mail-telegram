@@ -1,7 +1,7 @@
 const TelegramBot = require("node-telegram-bot-api");
 const TempMail = require("node-temp-mail");
 const { v4: uuidv4 } = require("uuid");
-const token = "";
+const token = process.env.TOKEN;
 
 let account;
 let address;
